@@ -1,0 +1,7 @@
+Singleton Pattern (GameState): The GameState class is designed as a singleton, ensuring there's only one instance managing the game state (score, level, game over status).
+
+Factory Method Pattern (Enemy Creation): The EnemyFactory class creates different types of enemies based on the current game level (easy or hard). You can easily add more enemies and levels in the future by creating new classes and extending the enemy factories.
+
+Abstract Factory Pattern (Weapons and Power-Ups): The ItemFactory abstract class helps in creating various types of weapons and power-ups for different levels and difficulty settings. As the game progresses, different weapons and power-ups are generated accordingly.
+
+This design is flexible, allowing you to easily add new levels, enemies, weapons, and power-ups. You can extend each factory and class without changing the core game logic, making it scalable for future expansions.
